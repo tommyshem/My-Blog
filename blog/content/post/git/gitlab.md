@@ -3,7 +3,7 @@ title = "Gitlab API Notes"
 date = "2018-09-23T18:30:00"
 tags = ["gitlab api"]
 categories = ["gitlab"]
-banner = "images/blog/vscode-debug-screen.png"
+banner = "images/blog/gitflow.png"
 +++
 
 General information about api's and tools to test website <https://www.guru99.com/testing-rest-api-manually.html>

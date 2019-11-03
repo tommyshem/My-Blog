@@ -3,7 +3,7 @@ title = "Git tips"
 date = "2018-02-23T18:30:00"
 tags = ["git"]
 categories = ["git"]
-banner = "images/blog/vscode-debug-screen.png"
+banner = "images/blog/gitflow.png"
 +++
 
 ## Git tips

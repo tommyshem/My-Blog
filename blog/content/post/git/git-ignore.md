@@ -3,7 +3,7 @@ title = "Git ignore"
 date = "2018-01-29T19:30:00"
 tags = ["git", "ignore"]
 categories = ["git"]
-banner = ""
+banner = "images/blog/gitflow.png"
 +++
 [content from this website](https://labs.consol.de/development/git/2017/02/22/gitignore.html)
 
