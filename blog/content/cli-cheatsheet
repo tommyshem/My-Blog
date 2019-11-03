@@ -1,0 +1,174 @@
+sudo eopkg up		Solus - Upgrade/Update
+sudo eopkg ur		Solus - Update Repo(s)
+sudo eopkg ln		Solus - List newest packages in repo
+sudo eopkg dc		Solus - delete cache files (clean)
+sudo bleachbit		Bleachbit - bb - clean
+bleachbit		Bleachbit - bb - clean
+eopkg history		HISTORY - upgrade-install package pkg
+dmesg > dmesg.log		HISTORY - text output home
+cat .bash_history		HISTORY -terminal - list commands
+sudo eopkg la		Solus - List all available packages in repo
+sudo eopkg lr		Solus - REPO - List repos
+sudo eopkg er ?	<repo>	Solus - REPO - Enable repository
+sudo eopkg dr ?	<repo>	Solus - REPO - Disable repo
+sudo eopkg it ?	<pkg>	Solus - Install package
+sudo eopkg ar ?	<repo>	Solus - REPO - Add a Repository
+sudo eopkg hs		Solus - History of eopkg/pisi operations
+sudo eopkg up -x ?	<pkg>	Solus - EXCLUDE package from Upgrade
+sudo eopkg la | grep ?	<pkg type>	Solus - Search for pacakge type
+sudo eopkg bl		Solus - Info on Pkg owner and release
+sudo eopkg bi		Solus - Build Pisi/eopkg packages
+sudo eopkg check		Solus - Verify installation
+sudo eopkg clean		Solus - Clean stale locks
+sudo eopkg cp		Solus - Configure pending packages
+sudo eopkg dt		Solus - Creates delta packages
+sudo eopkg em ?	<pkg>	Solus - Build install source packages
+sudo eopkg fc ?	<pkg>	Solus - Fetch a package
+sudo eopkg help		Solus - Command Help
+sudo eopkg info ?	<pkg>	Solus - Display package Info.
+sudo eopkg lc		Solus - List available components
+sudo eopkg li		Solus - Print list of installed packages
+sudo eopkg lp		Solus - List pending packages
+sudo eopkg ls		Solus - List sources
+sudo eopkg lu		Solus - List packages to be upgraded
+sudo eopkg rbd		Solus - Rebuild database
+sudo eopkg rm ?	<pkg>	Solus - remove package
+sudo eopkg rr ?	<repo>	Solus - Remove repository
+sudo eopkg sr ?	<pkg>	Solus - Search packages
+sudo eopkg sf	<file>	Solus - Seach for a file
+sudo gedit /etc/default/grub		edit grub config
+sudo gedit /etc/default/rcS		set time utc
+sudo grub-install /dev/sda		Move grub to SDA
+sudo update-grub		Update GRUB
+systemd-analyze		systemd analyze boot time - sd sysd
+systemd-analyze blame		systemd analyze boot time blame - sd sysd
+screenfetch		info system distro hwd sf
+kill -9 -1		force log out - logout
+sudo gedit  /etc/upgrade-system.conf		upgrade- system - edit - du
+sudo ufw status verbose		ufw status - settings ( deny (incoming)
+sudo gedit  /etc/systemd/journald.conf		edit journal settings - systemd
+sudo gedit  /etc/systemd/coredump.conf		coredump systemd - edit
+sudo gedit /etc/locale.nopurge		locale  purge localepurge - edit config
+sudo gedit /etc/fstab		edit fstab mount partitions
+sudo gedit /etc/lightdm/lightdm.conf		edit lightdm dm
+systemctl		systemd log
+systemd-analyze critical-chain		systemd analyze log
+systemctl --state=failed		systemd  services failed
+journalctl -b		systemd journal log
+sudo fc-cache -fv		Update fonts
+service --status-all		list services boot chkconfig (like)
+sudo gedit /etc/adjtime		time  =  local  or utc
+sudo gedit /etc/x11/xorg.conf		edit xorg conf nvidia
+sudo gedit /etc/gnome/defaults.list		edit default apps applications gnome
+cat /proc/sys/vm/swappiness		check swappiess - swap
+sudo gedit /etc/sysctl.conf		set swap - swappiness (1)
+gedit .config/plank/dock1/settings		plank dock config
+systemctl --version		system version installed
+uname -a		What kernel am I running
+sudo lshw		List hardware
+lspci		List all PCI devices
+cat /proc/version		Kernel Version -FULL Output
+inxi -r		Active Repos
+inxi -h		INXI Help
+lsb_release -a		Linux Release info
+java -version		Check for current JAVA version
+sudo update-alternatives --config java		Change JAVA version
+sudo update-alternatives --config javac		Change JAVA version-c
+sudo update-alternatives --config javaws		Change JAVA version-ws
+system-config-printer		Config Printer
+sudo ufw status		firewall Status
+sudo ufw enable		Enable netfilter firewall
+sudo ufw disable		Disable netfilter firewall
+sudo lspci		attached PCI devices
+glxgears		Open GL Test
+history		Command History
+sudo plymouth-set-default-theme --list		Plymouth Themes - LIST
+sudo plymouth-set-default-theme ?	<Name>	Plymouth Themes - CHANGE Theme
+sudo gedit /etc/default/grub		grub kernel parameters (quiet splash for Plymouth)
+sudo dracut -f		plymouth rebuild kernel
+sudo update-grub		plymouth
+history > output		Saves Terminal Commands to /home/output
+aplay -l		List all soundcards and digital audio devices
+df -h		File system disk space usage
+free -m		Show RAM usage
+ps aux | grep ?	<search>	Search active processes for search string
+iwconfig		Display wireless network information
+ifconfig -a		Displays the status of the currently active interfaces
+lsb_release -a		What version of Ubuntu do I have?
+cat ?	path	Read File & Print to Standard Output
+ls ?	path	List Folders Contents
+ls -lSr ?	path	Show files by size, biggest last
+chmod ? ?	file	Change access permissions, change mode
+chown ? ?	owner	group, file	Change the owner and/or group of each given file
+dmesg		Print kernel & driver messages
+history | grep -i ?	command	search history for a command
+locate ?	file	Find files (updatedb to update DB)
+sudo updatedb		update the database for locate
+which ?	command	Show full path name of command
+gpg -c ?	file	Encypt a file
+gpg ?	file.gpg	Decrypt a file
+tar xvf ?	file	decompress/extract .tar
+tar xvzf ?	file	decompress/extract tar.gz
+tar xjvf ?	file	decompress/extract a  tar.bz2
+top		display Linux tasks
+netstat		Print network connections and interface statistics
+sudo fdisk -l ?	(/dev/sdx)	List partition tables for specified devices
+sudo ufw allow ?	port	Open a port in netfilter firewall
+sudo ufw deny ?	port	Close a port in netfilter firewall
+cat ? ? | sort | uniq > ?	file1, file2	combine, sort and remove duplicates from 2 files
+apropos ?	pkg	search the manual page names and descriptions
+ip addr		Display info about active network interfaces
+ip route		Display currently active routing table
+find . -type d		List all directories under current directory
+find . -size +?	File size	List all files under current directory over given size
+find . -mtime 0		List all files under current directory modified in last 24 hours
+find . -newer ?	filename	List all files under current directory newer than given file
+find . ! -newer ?	filename	List all files under current directory older than given file
+find . -perm -2 ! -type l		List all world-writeable files and directories under current directory
+mount		List all mounted filesysystems
+sudo umount ?	Device	Un-mount the filesystem from the given device or mount point
+sudo mount -av		Mount all automatically mounted filesystems (listed in /etc/fstab)
+sudo mount ? ?	Device	Mount given device at given mount point
+sudo fdisk -l /dev/sda		List partition table of first hard drive /dev/sda
+du -sh .		Display total size of all files and directories under current directory
+ls -ltr		List files, most recently modified last
+ls -lAd .[^.]*		List all files and directories starting with a dot (all hidden files and directories)
+sudo lsof -c ?	command	List files opened by processes beginning with given command name
+sudo lsof +D ?	directory	List open files under given directory
+sudo lsof -i		List open (Internet) network sockets
+sudo lsof -N		List open NFS files
+sudo lsof -U		List open Unix domain files (Unix sockets)
+gzip -9 ?	Filename	Compress given file using gzip, adding a .gz suffix to its name
+bzip2 -9 ?	Filename	Compress given file using bzip2b, adding a .bz2 suffix to its name
+cd $OLDPWD		Change directory to previously used directory
+pushd ?	directory	Change to given directory, remembering current directory on stack
+popd		Change to topmost directory on stack created by pushd
+pwd		List current directory
+cd		Change to home directory
+date		Display local date and time in local display format
+date -R		Display local date and time in RFC2822 format
+date -u		Display UTC time in local display format
+date -u +%s		Display UTC time in number of seconds past the epoch
+ntpq -p		List NTP time sources and their offsets
+smbstatus		List current status of local SAMBA server
+smbclient -L \\\\? -N	Hostname	List shares and related information about SMB server on given host
+testparm -s		Test and display current SAMBA configuration
+jobs		List current jobs
+suspend		Suspend the currently running shell
+md5sum ?	filename	Display MD5 checksum of given file(s)
+sha1sum ?	filename	Display SHA-1 checksum of given file(s)
+gpg --list-keys		Display GnuPG keys
+gpg --clearsign ?	filename	Create a clearsigned copy of given filename with a .asc suffix
+gpg -d ?	filename	Decrypt and display given file
+gpg -c ?	filename	Encrypt given file using symetric cipher and prompt for passphrase, result in filename.gpg
+top		Interactively display running processes (q to quit)
+top -n1		Display a snapshot of currently running processes
+htop		Display configurable interactive process viewer (q to quit)
+iostat 5		Display information about io activity every 5 seconds (Ctrl-C to quit)
+sudo jnettop -i eth0		Display information about network traffic (q to quit)
+uptime		Display how long system has been running and current load averages
+sudo gedit ?	filename	Edit filename with root priviledges
+groups ?	<usr>	groups which X belong
+youtube-dl ?	<URL>	youtube download - you tube
+cmatrix -h		cmatrix help
+cmatrix -s		cmatrix screensaver mode
