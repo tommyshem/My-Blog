@@ -20,8 +20,6 @@ hugo -t hugo-icarus-theme
 echo -e "\033[0;32m\nDeploying updates to GitHub...\033[0m"
 # Go To Public folder
 cd public
-# clean public folder cached
-#git rm --cached . -f
 # Add changes to git.
 git add '.'
 # Commit changes to git.
@@ -31,7 +29,8 @@ if [ $# -eq 1 ]
 fi
 git commit -m "$msg"
 # Push public folder which is the website generated code to github.
-git push --force
+git push
+# --force
 # Go back up to the project root directory
 cd ../..
 
