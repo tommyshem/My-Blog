@@ -1,3 +1,13 @@
++++
+title = "Javascript Function Name logging"
+date = 2019-12-02T09:17:39Z
+tags = ["javascript","log","console"]
+categories = ["javascript"]
+description = "Javascript Function Name logging basics"
+menu = ""
+banner = ""
++++
+
 Logging function name with a debug function.
 
 Sample Example below.
