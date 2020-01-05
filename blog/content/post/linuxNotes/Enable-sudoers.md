@@ -6,6 +6,7 @@ categories = ["Linux Notes"]
 banner = "images/blog/Linux-Hosting-long.png"
 +++
 
+Arch Linux resources website https://wiki.archlinux.org/index.php/Users_and_groups
 
 # Enable sudoers Notes  
 
