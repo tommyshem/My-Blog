@@ -24,5 +24,5 @@ Get repo address from arch website AUR https://aur.archlinux.org/
 ```bash
 git clone https://aur.archlinux.org/packagename.git
 cd packagename
-makepkg PKGBUILD
+makepkg -s
 ```
