@@ -2,7 +2,7 @@
 title = "Compression"
 date = 2020-01-07T15:27:08Z
 tags = ["linux","compression"]
-categories = ["linuxNotes"]
+categories = ["Linux Notes"]
 description = "Compression Notes"
 banner = ""
 +++
