@@ -44,6 +44,18 @@ main (int    argc,
 gcc `pkg-config --cflags gtk+-3.0` -o example-0 example-0.c `pkg-config --libs gtk+-3.0` 
 ```
 
+List c packages then can be used for including in compile line
+
+```bash
+pkg-config --list-all
+```
+
+List a package name to find
+
+```bash
+pkg-config --list-all | grep packagename
+```
+
 ## Go Gtk example
 
 Example from https://github.com/gotk3/gotk3
