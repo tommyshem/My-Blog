@@ -17,3 +17,13 @@ netstat -anp
 '''bash
 ss -tanp
 '''
+
+## List open ports on the local host
+
+'''bash
+nmap -p 1-65535 --open localhost
+'''
+
+## Websites for reading about sockets
+
+https://ops.tips/blog/how-linux-creates-sockets/
